@@ -1,0 +1,21 @@
+DB_USERNAME filetype:env
+inurl:.env
+inurl:/.env
+inurl:"/config/.env"
+inurl:"/settings/.env"
+filetype:env
+intext:"API_KEY" filetype:env
+intext:"DATABASE_URL" filetype:env
+intext:"DB_PASSWORD" filetype:env
+intext:"SECRET_KEY" filetype:env
+intext:"MONGO_URL" filetype:env
+intext:"JWT_SECRET" filetype:env
+intext:"# Database configuration" filetype:env
+intext:"# API keys" filetype:env
+inurl:"/.git" inurl:.env
+inurl:"/uploads" inurl:.env
+site:github.com inurl:.env
+site:herokuapp.com inurl:.env
+site:wordpress.com inurl:.env
+intext:"Warning: include()" inurl:.env
+intext:"Fatal error" inurl:.env
