@@ -7,6 +7,14 @@ import json
 from xml.etree import ElementTree as ET
 import shutil  # For terminal window width
 
+"""
+          #Author  : Hackfut
+          #Contact : t.me/H4ckfutSec
+          #Github  : https://github.com/HackfutSec
+          #License : MIT  
+          [Warning] I am not responsible for the way you will use this program [Warning]
+
+"""
 # Banner Text
 banner = """
 
